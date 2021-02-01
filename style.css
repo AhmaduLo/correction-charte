@@ -1,0 +1,308 @@
+img {
+    width: 10px;
+    height: 10px;
+}
+*{
+    margin: 0;
+    padding: 0
+    
+}
+
+body{
+    background: rgba(199, 199, 255, 0.261);
+}
+header{
+   position: fixed;
+    border: 1px solid white;
+    top: 0px;
+    height: 55px;
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+   background-color: white;
+  margin-bottom: 150px;
+}
+.top{
+    margin-top: 15px;
+    
+}
+.after-header{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 15px;
+   
+}
+.presentation .title{
+    margin-top: 70px;
+font-size: 30px;
+font-weight: bold;
+}
+.presentation p{
+    font-size: 18px;
+}
+.btn1{
+    width: 155px;
+    height: 36px;
+    margin-top: 15px;
+    background-color: rgb(230, 8, 8);
+     margin-top: 70px;
+}
+.btn1:hover {
+    background-color: rgb(255, 0, 51);
+    box-shadow: 5px 0px 45px rgb(202, 103, 103);
+    transition: 0.5s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+/* //les chartes................................ */
+.charte{
+display: block;
+margin-top: 25px;
+text-align: center;
+
+
+}
+
+.reussite-collect {
+
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+transition: 0.9s ease-in-out;
+    padding: 25px;
+    overflow: hidden;
+    height: 25px;
+    width: 650px;
+    cursor: pointer;
+     box-shadow: 0px 0px 15px 5px gray;
+     background: rgba(255, 255, 255, 0.548);
+}
+
+.reussite-collect.click {
+    height: 350px;
+    transition: 0.9s ease-in-out;
+}
+
+
+
+.vivre-ens {
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    
+    padding: 25px;
+    margin-top: 25px;
+    overflow: hidden;
+    height: 25px;
+    cursor: pointer;
+      box-shadow: 0px 0px 15px 5px gray;
+     background: rgba(255, 255, 255, 0.548);
+    transition: 0.8s ease-in-out;
+    width: 650px;
+}
+
+.vivre-ens.click {
+    height: 220px;
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+
+
+
+.covid {
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+   
+    padding: 25px;
+    margin-top: 25px;
+    overflow: hidden;
+    height: 25px;
+      box-shadow: 0px 0px 15px 5px gray;
+     background: rgba(255, 255, 255, 0.548);
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+    width: 650px;
+}
+
+.covid.click {
+    height: 120px;
+    transition: 0.8s ease-in-out;
+}
+
+
+
+
+
+
+
+.fun {
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+     box-shadow: 0px 0px 15px 5px gray;
+    background: rgba(255, 255, 255, 0.548);
+    padding: 25px;
+    overflow: hidden;
+    height: 25px;
+    
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+    width: 650px;
+}
+
+.fun.click {
+    height: 230px;
+    transition: 0.8s ease-in-out;
+}
+
+
+ul li {
+    font-size: 20px;
+    margin: 25px;
+    list-style: none;
+}
+
+pre {
+    font-size: 15px;
+    /* border: 1px solid; */
+    margin-left: 100px;
+    width: 650px;
+    background: #c2c7cc;
+    margin-bottom: 35px;
+
+}
+
+h2 {
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+nav {
+    margin-bottom: 55px;
+}
+
+.btn2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btn-rand {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    background: rgba(212, 127, 144, 0.705);
+    transition: 0.5s ease-in-out;
+
+}
+
+.btn-rand:hover {
+    background: rgb(235, 37, 77);
+    box-shadow: 15px 0px 25px rgb(235, 37, 77);
+    border: 8px solid rgb(235, 37, 77);
+    transition: 0.5s ease-in-out;
+}
+
+/* .p {
+    text-align: center;
+    opacity: 0;
+    transition: 0.9s ease-in-out;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.p.nom {
+    opacity: 1.9;
+    transition: 0.9s ease-in-out;
+} */
+.name{
+    text-align: center;
+    font-size: 45px ;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:650px){
+.after-header {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+
+.presentation .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.presentation p {
+    font-size: 18px;
+}
+
+.btn1 {
+    width: 125px;
+    height: 36px;
+    margin-top: 15px;
+    background-color: rgb(230, 8, 8);
+    margin-top: 50px;
+}
+.charte {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+
+
+}
+.reussite-collect {
+    width: 350px;
+    overflow: scroll;
+    margin-left: 50px;
+}
+
+.vivre-ens {
+    width: 350px;
+    overflow: scroll;
+    margin-left: 50px;
+}
+
+.covid {
+    width: 350px;
+    overflow-x: scroll;
+    margin-left: 50px;
+}
+
+.fun {
+    width: 350px;
+    overflow: scroll;
+    margin-left: 50px;
+}
+
+pre {
+    font-size: 12px;
+    /* border: 1px solid; */
+    margin-left: 10px;
+    width: 650px;
+    background: #c2c7cc;
+    margin-bottom: 35px;
+
+}
+
+}
